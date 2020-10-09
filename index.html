@@ -7,9 +7,21 @@
 </head>
 <body>
 
-
-<h3>"The Emperor and the Kite"</h3>
-<h3>"El Emperador y la Cometa"</h3>
+    <center>
+        <h3>"The Emperor and the Kite"</h3>
+        <h3>"El Emperador y la Cometa"</h3>
+        <audio id="audioMusic">
+            <source src="Instrucciones.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="bell()">Instrucciones</button>
+    </center>
+    
+    <script>
+        var audio = document.getElementById("audioMusic");
+        function bell( ){
+            audio.play();
+        }
+    </script>
 
 <p>Presiona las palabras y descubre su significado:</p>
 <!--1 PARRAFO 1-->
